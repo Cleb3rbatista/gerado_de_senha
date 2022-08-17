@@ -8,10 +8,10 @@ def main():
     escolha=int(input("deseja gerar mais senhas ?\n"+"digite 1 para sim e 0 para não\n"))
     if escolha== 1:
         senha()
-    elif escolha==0:
+    if escolha==0:
         print("saindo...")
         Break
-    elif (escolha!=1 and escolha!=0):
+    else:
         print("opção invalida")
         main()
          
